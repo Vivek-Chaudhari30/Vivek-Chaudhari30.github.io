@@ -719,3 +719,5 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .gr-row.body.down { background: var(--bad-soft); border-color: color-mix(in srgb, var(--bad) 30%, transparent); }
 .blk[data-owner] { color: var(--accent-ink); }
 @media (max-width: 860px) { .gr-row .pill { padding: 2px 6px; } }
+.bl-flow, .demo-steps { scrollbar-width: none; }
+.bl-flow::-webkit-scrollbar, .demo-steps::-webkit-scrollbar { display: none; }

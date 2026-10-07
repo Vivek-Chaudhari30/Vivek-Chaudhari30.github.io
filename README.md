@@ -34,6 +34,6 @@ Then open http://localhost:8765. Skill icons use root-relative paths, so serve f
 
 All placeholders are filled in.
 
-- [x] **Résumé**: every "View résumé" button links to the Google Drive copy (https://drive.google.com/file/d/1iyHjNIlwNmhAfoFey6BszGlsNfRY1gGX/view?usp=sharing). To swap it, search the HTML for `drive.google.com`.
+- [x] **Resume**: every "View resume" button links to the Google Drive copy (https://drive.google.com/file/d/1iyHjNIlwNmhAfoFey6BszGlsNfRY1gGX/view?usp=sharing). To swap it, search the HTML for `drive.google.com`.
 - [x] **LinkedIn**: https://www.linkedin.com/in/vivek-kirankumar-chaudhari/
 - [x] **Headshot**: `images/vivek.jpg` (4:5 portrait, About page) and `images/vivek-face.jpg` (square crop, home profile card). If either is removed, a "VC" initials tile is shown instead.

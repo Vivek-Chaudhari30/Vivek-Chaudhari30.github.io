@@ -30,10 +30,10 @@ python3 -m http.server 8765
 
 Then open http://localhost:8765. Skill icons use root-relative paths, so serve from the repo root rather than opening the files directly.
 
-## TODO
+## Placeholders
 
-Placeholders to fill in. Search the repo for `TODO` to find each spot.
+All placeholders are filled in.
 
-- [ ] **Résumé PDF**: add `assets/Vivek-Chaudhari-Resume.pdf`. Every "View résumé" button already links to it (marked `<!-- TODO: add resume PDF -->`).
-- [ ] **LinkedIn URL**: replace every `href="#LINKEDIN_URL"` with the real profile URL (`index.html`, `html/contact.html`). Each is marked with a TODO comment.
+- [x] **Résumé**: every "View résumé" button links to the Google Drive copy (https://drive.google.com/file/d/1iyHjNIlwNmhAfoFey6BszGlsNfRY1gGX/view?usp=sharing). To swap it, search the HTML for `drive.google.com`.
+- [x] **LinkedIn**: https://www.linkedin.com/in/vivek-kirankumar-chaudhari/
 - [x] **Headshot**: `images/vivek.jpg` (4:5 portrait, About page) and `images/vivek-face.jpg` (square crop, home profile card). If either is removed, a "VC" initials tile is shown instead.

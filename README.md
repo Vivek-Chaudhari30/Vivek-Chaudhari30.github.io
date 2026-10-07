@@ -36,4 +36,4 @@ Placeholders to fill in. Search the repo for `TODO` to find each spot.
 
 - [ ] **Résumé PDF**: add `assets/Vivek-Chaudhari-Resume.pdf`. Every "View résumé" button already links to it (marked `<!-- TODO: add resume PDF -->`).
 - [ ] **LinkedIn URL**: replace every `href="#LINKEDIN_URL"` with the real profile URL (`index.html`, `html/contact.html`). Each is marked with a TODO comment.
-- [ ] **Headshot**: add `images/vivek.jpg` (portrait, about 4:5, at least 600px wide). Until it exists, a "VC" initials tile is shown instead.
+- [x] **Headshot**: `images/vivek.jpg` (4:5 portrait, About page) and `images/vivek-face.jpg` (square crop, home profile card). If either is removed, a "VC" initials tile is shown instead.

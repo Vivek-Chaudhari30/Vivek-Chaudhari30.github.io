@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work · Vivek Chaudhari</title>
+  <meta name="description" content="Experience and projects: forward deployed AI at Context Labs, fraud detection at Avenues AI, a founding build at Toya, plus PagedServe, GRPO-Zero, and Blastr AI.">
+  <link rel="canonical" href="https://vivek-chaudhari30.github.io/html/work.html">
+  <meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d0f" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vivek Chaudhari">
+  <meta property="og:title" content="Work · Vivek Chaudhari">
+  <meta property="og:description" content="What I built, how it works, and what changed: enterprise AI, fintech, inference, and RL post-training.">
+  <meta property="og:url" content="https://vivek-chaudhari30.github.io/html/work.html">
+  <meta property="og:image" content="https://vivek-chaudhari30.github.io/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script src="../assets/js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main">
+      <a class="brand" href="../index.html" aria-label="Vivek Chaudhari, home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8"/><path class="fg" d="M6.5 10 11.2 22.2 15.9 10" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path class="fg" d="M25.6 11.8a6 6 0 1 0 0 8.4" fill="none" stroke-width="2.4" stroke-linecap="round"/><circle cx="25.6" cy="16" r="1.5" fill="#6f8bff"/></svg>
+        <span>Vivek Chaudhari</span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="work.html" aria-current="page">Work</a>
+        <a href="skills.html">Skills</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/Vivek-Chaudhari30" rel="noopener">GitHub</a>
+        <a class="nav-cta" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">Work · Experience and projects</span>
+        <h1>AI systems in production. <span>Measured, not guessed.</span></h1>
+        <p>From forward deployed enterprise AI at Context Labs to fraud detection over live payment streams, a founding marketplace build, and the inference and post-training projects I build on my own. Here is what I built, how it works, and what changed.</p>
+        <div class="chips">
+          <a class="chip-link" href="#context-labs">Context Labs</a>
+          <a class="chip-link" href="#avenues-ai">Avenues AI</a>
+          <a class="chip-link" href="#toya">Toya Agrisolutions</a>
+          <a class="chip-link" href="#blastr-ai">Blastr AI</a>
+          <a class="chip-link" href="#pagedserve">PagedServe</a>
+          <a class="chip-link" href="#grpo-zero">GRPO-Zero</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <article class="entry" id="context-labs">
+        <div class="entry-side">
+          <span class="num">01 / Experience</span>
+          <h2>Context Labs</h2>
+          <p class="role">Software Engineer (Forward Deployed), Founding Team</p>
+          <p class="meta">Feb 2026 – Aug 2026<br>San Francisco (Remote)</p>
+        </div>
+        <div class="entry-main">
+          <h3>Enterprise AI, from discovery call to production.</h3>
+          <p>A pre-seed enterprise AI platform, the "Company Brain." I ran the full forward deployed loop with customers and owned the context-engineering layer that turned their scattered sources into context agents could act on.</p>
+          <div class="stat-row">
+            <div class="stat"><strong>15+</strong><span>enterprise customers, PoC to production in under 6 weeks</span></div>
+            <div class="stat"><strong>50%+</strong><span>lower token and inference cost</span></div>
+            <div class="stat"><strong>+40%</strong><span>retrieval precision</span></div>
+            <div class="stat"><strong>~8 hrs</strong><span>saved per operator, every week</span></div>
+          </div>
+          <ul class="bullets">
+            <li>Ran <strong>discovery-to-production cycles for 15+ enterprise customers</strong> (PoC to production in under 6 weeks). Owned the context-engineering layer turning 12+ sources into permission-aware context for task execution, saving ~8 hrs/week per operator.</li>
+            <li>Architected a <strong>3-tier Progressive Context Loading</strong> retrieval stack (vector search + causal-graph GraphRAG + semantic search): token and inference cost down 50%+, retrieval precision up 40%.</li>
+            <li>Built <strong>custom MCP servers</strong> orchestrating multi-agent workflows across client CRMs, cloud drives, and data warehouses, with source-inherited permissions, auditable execution traces, and human-in-the-loop guardrails for SOC 2/GDPR.</li>
+            <li>Fed human-in-the-loop escalation logs into <strong>LoRA/PEFT fine-tunes</strong>, turning one-off client fixes into reusable product features.</li>
+            <li>Eliminated silent dropped-event failures by re-architecting ingestion from a broken in-process scheduler to <strong>Gmail Pub/Sub push webhooks with cron-backed reconciliation</strong>: idempotent, recoverable, and observable.</li>
+            <li>Turned a zero-yield classifier into the pipeline's primary task source by rebuilding intent classification and task extraction, <strong>recalibrating the auto-promote threshold from an unreachable 1.01 to 0.72</strong> against the observed 0.70–0.85 score distribution.</li>
+            <li>Gated every prompt and model change with a <strong>golden-dataset eval harness</strong> (precision/recall on adversarial 20-email suites). Built an email-trace debugger and hardened the orchestrator with correlation IDs and automatic state rollback.</li>
+          </ul>
+          <ul class="tags" aria-label="Technologies">
+            <li class="tag">MCP</li><li class="tag">Multi-agent systems</li><li class="tag">GraphRAG</li><li class="tag">Vector search</li><li class="tag">LoRA / PEFT</li><li class="tag">Pub/Sub</li><li class="tag">Eval harnesses</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" id="avenues-ai">
+        <div class="entry-side">
+          <span class="num">02 / Experience</span>
+          <h2>Avenues AI</h2>
+          <p class="role">Software Engineer, AI · Phronetic AI Division</p>
+          <p class="meta">May 2025 – Aug 2025<br>GIFT City, India</p>
+        </div>
+        <div class="entry-main">
+          <h3>Fraud detection and agent automation for a listed fintech.</h3>
+          <p>A publicly listed fintech enabling digital transactions globally. I led fraud detection end to end and set the architecture new BFSI agents were built on.</p>
+          <div class="stat-row">
+            <div class="stat"><strong>270K–300K</strong><span>transactions per day monitored</span></div>
+            <div class="stat"><strong>33%</strong><span>less manual review</span></div>
+          </div>
+          <ul class="bullets">
+            <li>Led the <strong>fraud-detection workstream end to end</strong>: real-time anomaly detection over payment streams at 270K–300K transactions/day, with automated mitigation triggers under SOC 2 and RBI constraints.</li>
+            <li><strong>Cut manual review 33%</strong> by driving adoption of multi-agent automation across BFSI workflows (transaction initiation, reconciliation, compliance), keeping human sign-off on high-risk actions.</li>
+            <li>Set the division's <strong>reference RAG architecture</strong> over internal data sources and REST APIs, the shared base for new BFSI agents.</li>
+          </ul>
+          <ul class="tags" aria-label="Technologies">
+            <li class="tag">Anomaly detection</li><li class="tag">Multi-agent systems</li><li class="tag">RAG</li><li class="tag">REST APIs</li><li class="tag">SOC 2</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" id="toya">
+        <div class="entry-side">
+          <span class="num">03 / Experience</span>
+          <h2>Toya Agrisolutions</h2>
+          <p class="role">Full-Stack Software Engineer, Founding Build</p>
+          <p class="meta">2024<br>Ahmedabad, India</p>
+        </div>
+        <div class="entry-main">
+          <h3>A farm machinery rental marketplace, built from zero.</h3>
+          <p>A two-sided marketplace connecting farmers with machinery owners. I was the only engineer.</p>
+          <ul class="bullets">
+            <li><strong>Sole engineer and architect</strong>, from field discovery to deployed prototype: React Native (Expo) client, NestJS/TypeScript backend, PostgreSQL + PostGIS geospatial matching, booking state machines, and Razorpay payments.</li>
+          </ul>
+          <ul class="tags" aria-label="Technologies">
+            <li class="tag">React Native (Expo)</li><li class="tag">NestJS</li><li class="tag">TypeScript</li><li class="tag">PostgreSQL</li><li class="tag">PostGIS</li><li class="tag">Razorpay</li>
+          </ul>
+        </div>
+      </article>
+
+      <header class="group-title" id="projects">
+        <span class="eyebrow">Projects</span>
+        <h2 style="margin-top:16px">Things I built on my own.</h2>
+        <p>A revenue-generating product from my company, and two from-scratch deep dives into how modern LLMs are served and trained.</p>
+      </header>
+
+      <article class="entry" id="blastr-ai">
+        <div class="entry-side">
+          <span class="num">04 / Project</span>
+          <h2>Blastr AI</h2>
+          <p class="role">Autonomous GTM platform</p>
+          <p class="meta">Built under Quantum AI Solutions<br>Python · Node.js · LLM agents · Voice AI · Redis</p>
+          <a class="link" href="https://www.blastrai.com" rel="noopener">blastrai.com <span aria-hidden="true">↗</span></a>
+          <a class="link" href="../index.html#demo-blastr">Interactive demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="entry-main">
+          <h3>AI that runs the outbound funnel, end to end.</h3>
+          <p>A revenue-generating platform built under Quantum AI Solutions, my company, running the outbound funnel for paying enterprise clients.</p>
+          <div class="stat-row">
+            <div class="stat"><strong>15,000+</strong><span>minutes of production voice calls</span></div>
+            <div class="stat"><strong>30–40%</strong><span>conversion uplift over WhatsApp</span></div>
+          </div>
+          <ul class="bullets">
+            <li>Revenue-generating platform running the outbound funnel end to end: <strong>email and LinkedIn sequences, AI voice calls, live qualification, meeting booking, CRM sync</strong>.</li>
+            <li><strong>15,000+ minutes of production voice calls</strong> for paying enterprise clients, with a 30–40% conversion uplift over WhatsApp.</li>
+            <li><strong>Planner + conversational + execution agent</strong> architecture that classifies buyer intent live mid-call and hands warm leads to WhatsApp with the exact purchase link, no human rep needed.</li>
+            <li><strong>Low-latency streaming voice engine</strong> (English, Hindi, Gujarati) with interruption-aware turn-taking and mid-call language switching, writing every outcome back to the CRM.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" id="pagedserve">
+        <div class="entry-side">
+          <span class="num">05 / Project</span>
+          <h2>PagedServe</h2>
+          <p class="role">High-throughput LLM inference server</p>
+          <p class="meta">Python · PyTorch · C++17 / pybind11<br>CUDA · FastAPI</p>
+          <a class="link" href="https://github.com/Vivek-Chaudhari30/Paged_Serve" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="link" href="../index.html#demo-pagedserve">Interactive demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="entry-main">
+          <h3>The core mechanisms of modern LLM serving, from scratch.</h3>
+          <p>Paged memory for the KV cache, a scheduler that works per decode step, and prefix sharing, with a benchmark harness to keep the numbers honest.</p>
+          <div class="stat-row">
+            <div class="stat"><strong>3.4×</strong><span>more concurrent sequences in the same GPU memory</span></div>
+            <div class="stat"><strong>6.8×</strong><span>throughput over HuggingFace generate() at 32 concurrent</span></div>
+            <div class="stat"><strong>61%</strong><span>lower P99 TTFT on shared-prefix traffic</span></div>
+          </div>
+          <ul class="bullets">
+            <li><strong>Paged KV cache</strong>: a fixed-size block allocator with per-sequence block tables replacing contiguous max-length pre-allocation, fitting 3.4× more concurrent sequences in the same GPU memory.</li>
+            <li><strong>Continuous batching</strong> with a per-decode-step scheduler that admits, preempts, and retires requests mid-flight: 6.8× throughput over HuggingFace generate() at 32 concurrent requests.</li>
+            <li><strong>Block-aligned prefix caching</strong> with refcounted shared blocks: P99 time-to-first-token down 61% on shared-prefix traffic.</li>
+            <li>C++17/pybind11 bindings, a FastAPI serving layer, and a <strong>reproducible benchmark harness</strong>: 1–64 concurrency sweep, medians over 3 warmed runs, matched GPU, model, and sampling.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" id="grpo-zero">
+        <div class="entry-side">
+          <span class="num">06 / Project</span>
+          <h2>GRPO-Zero</h2>
+          <p class="role">RL post-training pipeline for LLM reasoning</p>
+          <p class="meta">Python · PyTorch · TRL<br>Hugging Face · LoRA</p>
+          <a class="link" href="https://github.com/Vivek-Chaudhari30/GRPO-Zero" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="link" href="../index.html#demo-grpo">Interactive demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="entry-main">
+          <h3>GRPO from scratch, verified on GSM8K.</h3>
+          <p>Group Relative Policy Optimization implemented by hand to post-train a small open model on grade-school math with a verifiable reward.</p>
+          <div class="stat-row">
+            <div class="stat"><strong>34.2% → 51.6%</strong><span>GSM8K pass@1, Qwen2.5-0.5B-Instruct</span></div>
+            <div class="stat"><strong>500</strong><span>held-out problems, 8 samples per problem</span></div>
+          </div>
+          <ul class="bullets">
+            <li><strong>GRPO implemented from scratch</strong> to post-train Qwen2.5-0.5B-Instruct: verified GSM8K pass@1 from 34.2% to 51.6% (8 samples/problem, 500 held-out problems).</li>
+            <li><strong>Composite rewards</strong> (correctness + format shaping), group-relative advantages, and KL regularization.</li>
+            <li>Diagnosed <strong>reward-hacking failure modes</strong> from training dynamics. Every run gated behind smoke-test and overfit presets; LoRA training on Colab GPUs after local development on Apple Silicon (MPS).</li>
+          </ul>
+        </div>
+      </article>
+
+      <header class="group-title" id="more">
+        <span class="eyebrow">More on GitHub</span>
+        <h2 style="margin-top:16px">Smaller builds and experiments.</h2>
+      </header>
+      <div class="repo-grid">
+        <a class="repo" href="https://github.com/Vivek-Chaudhari30/my_majoor" rel="noopener">
+          <h3>Majoor <span aria-hidden="true">↗</span></h3>
+          <p>A voice-first macOS menu-bar assistant. Hold a shortcut, speak, and it transcribes, picks the right action, and does it.</p>
+          <span class="mono">Swift · macOS</span>
+        </a>
+        <a class="repo" href="https://github.com/Vivek-Chaudhari30/agent-harness" rel="noopener">
+          <h3>agent-harness <span aria-hidden="true">↗</span></h3>
+          <p>A small harness for building and evaluating LLM pipelines with env-configured models, cached structured-output calls, and a fake provider so tests run without an API key.</p>
+          <span class="mono">Python · Evals</span>
+        </a>
+        <a class="repo" href="https://github.com/Vivek-Chaudhari30/HumanTurn" rel="noopener">
+          <h3>Human Turn <span aria-hidden="true">↗</span></h3>
+          <p>An event-driven bridge between coding agents on a Mac and a developer's iPhone, so the human is pulled in only when the agent needs a decision.</p>
+          <span class="mono">TypeScript · Swift</span>
+        </a>
+        <a class="repo" href="https://github.com/Vivek-Chaudhari30/DataOps-Console" rel="noopener">
+          <h3>DataOps Console <span aria-hidden="true">↗</span></h3>
+          <p>A full-stack dashboard for monitoring dataset-generation projects, with an LLM that writes a daily status digest and flags at-risk projects.</p>
+          <span class="mono">TypeScript · LLM</span>
+        </a>
+      </div>
+    </div>
+
+    <section class="section" aria-labelledby="cta-title">
+      <div class="wrap cta">
+        <div>
+          <span class="eyebrow">Next</span>
+          <h2 id="cta-title" style="margin-top:16px">Want the short version?</h2>
+          <p>The résumé has everything on one page.</p>
+          <div class="actions">
+            <!-- TODO: add resume PDF -->
+            <a class="btn btn-primary" href="../assets/Vivek-Chaudhari-Resume.pdf">View résumé <span class="arr" aria-hidden="true">↗</span></a>
+            <a class="btn" href="contact.html">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <span class="footer-brand">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" style="width:22px;height:22px"><rect width="32" height="32" rx="8"/><path class="fg" d="M6.5 10 11.2 22.2 15.9 10" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path class="fg" d="M25.6 11.8a6 6 0 1 0 0 8.4" fill="none" stroke-width="2.4" stroke-linecap="round"/><circle cx="25.6" cy="16" r="1.5" fill="#6f8bff"/></svg>
+        © 2026 Vivek Chaudhari
+      </span>
+      <nav aria-label="Footer">
+        <a href="work.html">Work</a><a href="skills.html">Skills</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="https://github.com/Vivek-Chaudhari30" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
